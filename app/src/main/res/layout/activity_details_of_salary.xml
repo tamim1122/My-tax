@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:text="Calculate"
         android:textSize="25sp"
-        android:textColor="#111"
+        android:textColor="#ffff"
         android:background="#232"
         android:gravity="center"
         android:layout_marginTop="550dp"
