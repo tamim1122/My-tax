@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Banchoose"></activity>
+        <activity android:name=".ChooseLanguage"></activity>
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".SalaryFemaleBangla" />
+        <activity android:name=".SalaryMaleBangla" />
+        <activity android:name=".Banchoose" />
         <activity android:name=".Englan" />
-        <activity android:name=".Language" />
         <activity android:name=".DetailsOfSalary" />
         <activity android:name=".ChooseOption" />
         <activity android:name=".MainActivity">

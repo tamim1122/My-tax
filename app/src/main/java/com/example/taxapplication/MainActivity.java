@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent =new Intent(MainActivity.this,Language.class);
+                Intent intent =new Intent(MainActivity.this,ChooseLanguage.class);
                 startActivity(intent);
                 finish();
             }

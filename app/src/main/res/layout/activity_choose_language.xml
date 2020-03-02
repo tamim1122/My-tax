@@ -5,29 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#008550"
-    tools:context=".Banchoose">
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#004785"
-        android:text="আপনি"
-        android:gravity="center"
-        android:textSize="30sp"
-        android:textColor="#fff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-
+    tools:context=".ChooseLanguage">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Please Choose Your Laguage"
+      android:text="Please Choose Your Laguage"
         android:textSize="28sp"
         android:background="#658328"
         android:textStyle="italic"
@@ -35,21 +18,22 @@
         />
 
     <Button
-        android:id="@+id/bcp"
+        android:id="@+id/clb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="পুরুষ"
+        android:text=" বাংলা  "
         android:textSize="26sp"
         android:textStyle="bold"
         android:layout_centerInParent="true"
 
+
         />
 
     <Button
-        android:id="@+id/bcm"
+        android:id="@+id/cle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="মহিলা"
+        android:text="English"
         android:textSize="26sp"
         android:textStyle="bold"
         android:layout_below="@+id/clb"
@@ -57,6 +41,9 @@
         android:layout_marginTop="20dp"
 
         />
+
+
+
 
 
 
