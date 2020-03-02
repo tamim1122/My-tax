@@ -4,102 +4,106 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3F51B5"
+    android:background="#5436"
     tools:context=".Englan">
 
 
     <TextView
-        android:id="@+id/basicsalaryid"
+        android:id="@+id/basicsalaryidf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="100dp"
         android:text="Basic Salary"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp" />
+        />
+
 
 
     <TextView
-        android:id="@+id/houserentid"
+        android:id="@+id/houserentidf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="150dp"
         android:text="Hose Rent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
 
         />
 
     <TextView
-        android:id="@+id/conveyanceid"
+        android:id="@+id/conveyanceidf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="200dp"
         android:text="Conveyance Allowance"
-        android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
-
-        />
-
-    <TextView
-        android:id="@+id/medicalallowanceid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20sp"
-        android:layout_marginTop="250dp"
-        android:text="Medical Allowance"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp"
-
-        />
-
-    <TextView
-        android:id="@+id/festivalbonusid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="300dp"
+
+        />
+
+    <TextView
+        android:id="@+id/medicalallowanceidf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medical Allowance"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/festivalbonusidf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Festival Bonus"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        />
 
 
     <Button
-        android:id="@+id/buttoncalculate"
+        android:id="@+id/buttoncalculatef"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="550dp"
-        android:background="#332225"
-        android:gravity="center"
         android:text="Calculate"
+        android:textSize="25sp"
         android:textColor="#ffff"
-        android:textSize="25sp" />
+        android:background="#232"
+        android:gravity="center"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="140dp"
+        />
 
     <TextView
-        android:id="@+id/providentid"
+        android:id="@+id/providentidf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="350dp"
         android:text="Provident Fund"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp" />
 
     <TextView
-        android:id="@+id/leavefareid"
+        android:id="@+id/leavefareidf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="400dp"
         android:text="Leave Fare"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/editText6f"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -108,7 +112,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="235dp"
         android:layout_marginLeft="178dp"
         android:layout_marginTop="88dp"
         android:layout_marginEnd="20dp"
@@ -116,10 +120,11 @@
         android:layout_marginBottom="600dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="" />
+        android:text=""
+        />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/editText7f"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -128,7 +133,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="235dp"
         android:layout_marginLeft="187dp"
         android:layout_marginTop="135dp"
         android:layout_marginEnd="11dp"
@@ -139,7 +144,7 @@
         android:text="" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/editText8f"
         android:layout_width="146dp"
         android:layout_height="19dp"
         android:layout_alignParentStart="true"
@@ -148,7 +153,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="240dp"
+        android:layout_marginStart="235dp"
         android:layout_marginLeft="261dp"
         android:layout_marginTop="202dp"
         android:layout_marginEnd="19dp"
@@ -159,7 +164,7 @@
         android:text="" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/editText9f"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -168,7 +173,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="235dp"
         android:layout_marginLeft="206dp"
         android:layout_marginTop="259dp"
         android:layout_marginEnd="19dp"
@@ -179,7 +184,7 @@
         android:text="" />
 
     <EditText
-        android:id="@+id/providentplainid"
+        android:id="@+id/providentplainidf"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
@@ -188,7 +193,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="235dp"
         android:layout_marginLeft="179dp"
         android:layout_marginTop="330dp"
         android:layout_marginEnd="19dp"
@@ -199,7 +204,7 @@
         android:text="" />
 
     <EditText
-        android:id="@+id/editText12"
+        android:id="@+id/editText12f"
         android:layout_width="164dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -208,7 +213,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="235dp"
         android:layout_marginLeft="232dp"
         android:layout_marginTop="285dp"
         android:layout_marginEnd="15dp"
@@ -219,7 +224,7 @@
         android:text="" />
 
     <EditText
-        android:id="@+id/editText13"
+        android:id="@+id/editText13f"
         android:layout_width="177dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -228,7 +233,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="235dp"
         android:layout_marginLeft="219dp"
         android:layout_marginTop="389dp"
         android:layout_marginEnd="19dp"
@@ -239,13 +244,14 @@
         android:text="" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView9f"
+        android:background="#858"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#858"
-        android:gravity="center"
-        android:text="Tax Calculator "
         android:textColor="#111"
-        android:textSize="30sp" />
+        android:text="Tax Calculator "
+        android:textSize="30sp"
+        android:gravity="center"/>
+
 
 </RelativeLayout>

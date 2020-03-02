@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#004785"
-        android:text="Choose Your Language"
+        android:text="আপনি"
+        android:gravity="center"
         android:textSize="30sp"
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,17 +27,19 @@
         android:layout_centerInParent="true">
 
         <RadioButton
-            android:id="@+id/radioButton12"
+            android:id="@+id/radioBtnbp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="English"
+            android:text="পুরুষ"
+            android:textStyle="bold"
             android:textSize="40sp" />
 
         <RadioButton
-            android:id="@+id/radioButton13"
+            android:id="@+id/radioBtnbm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Female"
+            android:text="মহিলা"
+            android:textStyle="bold"
             android:textSize="40sp" />
 
     </RadioGroup>
