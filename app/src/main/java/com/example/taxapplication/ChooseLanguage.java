@@ -23,7 +23,7 @@ public class ChooseLanguage extends AppCompatActivity {
         button1.setTypeface(mycustomfont);
 
         Button button1=(Button)findViewById(R.id.clb);
-        Button button2=(Button)findViewById(R.id.clb);
+        Button button2=(Button)findViewById(R.id.cle);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

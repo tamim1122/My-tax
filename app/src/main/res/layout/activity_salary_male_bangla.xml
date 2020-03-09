@@ -7,10 +7,10 @@
     tools:context=".SalaryMaleBangla">
 
     <TextView
-        android:id="@+id/basicsalaryid"
+        android:id="@+id/basicbm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Basic Salary"
+        android:text="মুল বেতন"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="20dp"
         android:textSize="20sp"
@@ -20,22 +20,21 @@
 
 
     <TextView
-        android:id="@+id/houserentid"
+        android:id="@+id/houserebm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hose Rent"
+        android:text="বাড়ি ভাড়া"
         android:layout_marginTop="150dp"
         android:layout_marginLeft="20dp"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
-
         />
 
     <TextView
-        android:id="@+id/conveyanceid"
+        android:id="@+id/convebm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Conveyance Allowance"
+        android:text="যাতায়াত ভাড়া"
         android:textSize="20sp"
         android:textColor="@color/colorPrimaryDark"
         android:layout_marginTop="200dp"
@@ -44,10 +43,10 @@
         />
 
     <TextView
-        android:id="@+id/medicalallowanceid"
+        android:id="@+id/medicalbm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Medical Allowance"
+        android:text="চিকিৎসা ভাতা"
         android:textSize="20sp"
         android:textColor="@color/colorPrimaryDark"
         android:layout_marginTop="250dp"
@@ -56,10 +55,10 @@
         />
 
     <TextView
-        android:id="@+id/festivalbonusid"
+        android:id="@+id/festivabm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Festival Bonus"
+        android:text="উৎসব ভাতা"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         android:layout_marginTop="300dp"
@@ -81,20 +80,20 @@
         />
 
     <TextView
-        android:id="@+id/providentid"
+        android:id="@+id/providentbm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Provident Fund"
+        android:text="কর্মচারীদের ভবিষ্যত নিধি"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         android:layout_marginTop="350dp"
         android:layout_marginLeft="20dp" />
 
     <TextView
-        android:id="@+id/leavefareid"
+        android:id="@+id/leavefarebm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Leave Fare"
+        android:text="ছুটি ভাতা"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         android:layout_marginTop="400dp"
@@ -253,5 +252,3 @@
 
 </RelativeLayout>
 
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
