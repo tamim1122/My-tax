@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">TaxApplication</string>
-    <string name="apni">Please select</string>
+    <string name="app_name">My Tax</string>
+    <string name="basic_salary">Basic Salary</string>
 </resources>
