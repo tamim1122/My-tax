@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008550"
+    tools:context=".BanglaOption">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#004785"
+        android:text="Please select option"
+        android:textStyle="bold"
+        android:id="@+id/select_option"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/bop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="পুরুষ"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+
+        />
+
+    <Button
+        android:id="@+id/bom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="মহিলা"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/bop"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+</RelativeLayout>
