@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResultActivity">
-
+    tools:context=".Result">
 
     <TextView
+        android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Result"
@@ -16,7 +16,25 @@
         android:textAlignment="center"
         android:background="#5665"
         />
+    <EditText
+        android:id="@+id/edit_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/result"
+        android:layout_marginTop="300dp"
+        />
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_below="@id/edit_result"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        />
 
 
 
-</LinearLayout>
+
+</RelativeLayout>
